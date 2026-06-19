@@ -1,0 +1,23 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+# Cargo.lock è incluso per i binari (permette build riproducibili)
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+config.local.toml
+*.log
+/tmp/
+/build/
+
+# VPN-related (local testing)
+/test-configs/
+*.zip

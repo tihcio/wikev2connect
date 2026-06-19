@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=WIKEv2 Connect
+Comment=VPN Manager for WatchGuard IKEv2 connections
+Exec=wikev2connect
+Icon=wikev2connect
+Categories=Network;Utility;
+Keywords=VPN;IKEv2;WatchGuard;Network;
+Terminal=false
+StartupNotify=true
+X-KDE-DBusActivation=true
+X-KDE-StartupNotify=true
+MimeType=

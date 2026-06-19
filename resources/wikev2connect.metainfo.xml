@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>wikev2connect</id>
+  <name>WIKEv2 Connect</name>
+  <summary>Gestore VPN IKEv2 WatchGuard per Fedora Linux</summary>
+
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+
+  <description>
+    <p>
+      WIKEv2 Connect permette di importare, creare e gestire connessioni VPN IKEv2
+      verso dispositivi WatchGuard Firebox su Fedora Linux, integrandosi con
+      NetworkManager e il plugin strongSwan.
+    </p>
+    <ul>
+      <li>Importazione configurazioni ZIP e PS1 esportate da WatchGuard</li>
+      <li>Installazione automatica dei certificati CA</li>
+      <li>Supporto MFA con WatchGuard AuthPoint (notifica push)</li>
+      <li>Feedback visivo immediato su connessione e disconnessione</li>
+      <li>Tema colori adattivo KDE Plasma</li>
+      <li>Ricerca in tempo reale sulla lista connessioni</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">wikev2connect.desktop</launchable>
+
+  <url type="homepage">https://github.com/YOUR_USERNAME/wikev2connect</url>
+  <url type="bugtracker">https://github.com/YOUR_USERNAME/wikev2connect/issues</url>
+
+  <categories>
+    <category>Network</category>
+    <category>Utility</category>
+  </categories>
+
+  <keywords>
+    <keyword>VPN</keyword>
+    <keyword>IKEv2</keyword>
+    <keyword>WatchGuard</keyword>
+    <keyword>strongSwan</keyword>
+    <keyword>NetworkManager</keyword>
+  </keywords>
+
+  <provides>
+    <binary>wikev2connect</binary>
+  </provides>
+
+  <releases>
+    <release version="0.1.0" date="2026-06-19">
+      <description>
+        <p>Prima versione pubblica.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+</component>
