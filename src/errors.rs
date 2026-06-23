@@ -14,9 +14,6 @@ pub enum WIKEv2ConnectError {
     #[error("System error: {0}")]
     SystemError(String),
 
-    #[error("Storage error: {0}")]
-    StorageError(String),
-
     #[error("File error: {0}")]
     FileError(#[from] std::io::Error),
 

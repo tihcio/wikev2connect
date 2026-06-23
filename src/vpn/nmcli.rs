@@ -65,7 +65,7 @@ pub async fn create_vpn_connection(
     password: &str,
 ) -> Result<VpnConnection> {
     let vpn_data = format!(
-        "address={}, method=eap, user={}, certificate={}, virtual=yes, encap=no, ipcomp=no, proposal=yes, ike={}, esp={}",
+        "address={}, method=eap, user={}, certificate={}, virtual=yes, encap=no, ipcomp=no, proposal=yes, ike={}, esp={}, password-flags=1",
         server, username, cert_path, proposal.ike, proposal.esp
     );
 
